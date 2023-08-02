@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+    </head>
+    <body>
+        <h1>Registration form></h1>
+        <form>
+            <table border="1">
+                <tr>
+                    <td>First name:</td>
+                    <td><input type="text" placeholder="Ayush" name="Firstname" required></td>
+                </tr>
+                <tr>
+                    <td><label for="lastname">Last Name</label>:</td>
+                    <td><input type="text" placeholder="Bansal" name="Last Name" id="lastname" required></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <label><input type="radio" name="gender" value="male"> Male</label>
+                        <label><input type="radio" name="gender" value="female"> Female</label>
+                    </td>
+                </tr>
+                 <tr>
+                    <td><label for="dob">Birth Date</label></td>
+                    <td><input type="date" id="dob" placeholder="dd/mm/yyyy" required /></td>
+                </tr>
+                <tr>
+                    <td><label for="country">Country</label></td>
+                    <td>
+                        <select name="country" id="country">
+                            <option value="India">India</option>
+                            <option value="Singapore">Singapore</option>
+                            <option value="UAE">UAE</option>
+                            <option value="China">China</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="interests">interests</label></td>
+                    <td>
+                        <label for="">
+                            <input type="checkbox" name="Interests" value="coding"> coding
+                        </label>
+                        <label for="">
+                            <input type="checkbox" name="Interests" value="cycling"> cycling
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit">submit</button></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
